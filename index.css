@@ -5,20 +5,21 @@
   font-family: sans-serif;
 }
 body {
-  background-color: #69c6af;
+  background-color: #FFF2D7;
   padding-bottom: 50px;
 }
 header {
   overflow: hidden;
   position: sticky;
   top: 20px;
-  background-color: #140951;
+  background-color: #990011;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 10px 0px 10px;
-  border-radius: 50px;
-  max-width: 700px;
+  border-radius: 0px;
+  max-width: 100VW;
+  box-shadow: 2px 3px 20px;
 }
 
 .logo {
@@ -71,10 +72,14 @@ nav ul li a:hover {
 .join-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #140951;
+  background-color: #990011;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  text-shadow: #333;
 }
 
 .join-button:hover {
@@ -90,3 +95,22 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+h2{ font-size: 40px;
+    text-decoration: underline;
+    position: relative;
+    left: 660px;
+    
+}
+p.ab{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px;
+    padding: 35px;
+    width: 60vw;
+    text-align: center;
+
+    
+}
+
+
