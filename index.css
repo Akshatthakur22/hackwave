@@ -1,82 +1,80 @@
-*{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-body{
-    background-color: #69c6af;
-    padding-bottom: 50px;
+body {
+  background-color: #69c6af;
+  padding-bottom: 50px;
 }
 header {
-    overflow: hidden;
-    position: sticky;
-    top: 20px;
-    background-color: #140951;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 10px 0px 10px;
-    border-radius: 50px;
-    max-width: 700px;
-
+  overflow: hidden;
+  position: sticky;
+  top: 20px;
+  background-color: #140951;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px 0px 10px;
+  border-radius: 50px;
+  max-width: 700px;
 }
 
-.logo{
-    color: #fff;
-    display: inline;
-    margin: 20px;
-    font-size: 24px;
-    font-family:Verdana, Geneva, Tahoma;
+.logo {
+  color: #fff;
+  display: inline;
+  margin: 20px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 20px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
-    font-size: 24px;
+  display: inline;
+  margin-right: 20px;
+  font-size: 24px;
 }
 
 nav ul li a {
-    color: #ecbdbd;
-    text-decoration: none;
+  color: #ecbdbd;
+  text-decoration: none;
 }
-nav ul li a:hover{
-    color: #69c6af;
-    text-shadow: #bfa76a;
-    /* text-decoration: none; */
-    transition: 0.3s;
+nav ul li a:hover {
+  color: #69c6af;
+  text-shadow: #bfa76a;
+  /* text-decoration: none; */
+  transition: 0.3s;
 }
-
 
 .hero-section {
   text-align: center;
+  padding-top: 80px;
 }
 
 .hero-section h1 {
-  font-size: 36px;
+  font-size: 45px;
 }
 
 .hero-section p {
+  padding-top: 40px;
   font-size: 18px;
   margin-bottom: 20px;
 }
 
 .join-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #140951;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #140951;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .join-button:hover {
@@ -91,8 +89,4 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-#contact {
-  margin-top: 500px;
-  padding: auto;
 }
