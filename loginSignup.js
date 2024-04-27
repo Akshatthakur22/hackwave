@@ -4,7 +4,12 @@ var z = document.getElementById("btn");
 
 var userId = document.getElementById("username");
 var Password = document.getElementById("userpass");
-var su
+let submit = document.getElementById("#submit-btn");
+
+submit.onclick = () =>
+{
+    confirm.log("hello");
+}
 
 
 function register(){
