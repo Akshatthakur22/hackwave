@@ -1,6 +1,7 @@
 body {
-  background-color: #e0e0e0;
+  background-color: #efefef;
   padding-bottom: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.rem {
@@ -24,8 +25,7 @@ img.image {
 div.rems {
   font-size: 60px;
   font-weight: 600;
-  font-family: 'Times New Roman', Times, serif;
-  ;
+  /* font-family: "Times New Roman", Times, serif; */
   margin: 25px;
   padding: 30px;
   left: 20%;
@@ -35,8 +35,7 @@ div.rems {
 div.remf {
   font-size: 30px;
   font-weight: 800;
-  font-family: 'Times New Roman', Times, serif;
-  ;
+  font-family: "Times New Roman", Times, serif;
   margin: 25px;
   padding: 30px;
   width: 20vw;
