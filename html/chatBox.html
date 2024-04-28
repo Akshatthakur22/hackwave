@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Box</title>
+  <link rel="stylesheet" href="/css/chatBox.css">
+</head>
+<body>
+  <div class="chat-box">
+    <div class="heading">
+        <h1>Chat Box</h1>
+    </div>
+    <div class="chat-container" id="chat-container">
+      <!-- Existing messages will be inserted here -->
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Type your message..." id="messageInput">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <script src="/js/chatBox.js"></script>
+</body>
+</html>
