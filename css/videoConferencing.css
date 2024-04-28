@@ -9,12 +9,15 @@ body {
     width: 50%;
     float: left;
     margin: 20px;
+    border: 7px  #c6c5ca;
+    outline: 2px solid black;
+    
   }
   
   video {
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+    border: 1px solid #9b7575;
   }
   
   #controls {
@@ -26,6 +29,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 500;
   }
   
   button:disabled {
