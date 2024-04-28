@@ -1,4 +1,4 @@
-* {
+*{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -12,14 +12,13 @@ header {
   overflow: hidden;
   position: sticky;
   top: 20px;
-  background-color: #990011;
+  background-color: #140951;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 10px 0px 10px;
-  border-radius: 0px;
-  max-width: 100VW;
-  box-shadow: 2px 3px 20px;
+  border-radius: 50px;
+  max-width: 700px;
 }
 
 .logo {
@@ -94,7 +93,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-<<<<<<< Updated upstream
 }
 
 h2{ font-size: 40px;
@@ -165,19 +163,102 @@ img#bc {position: relative;
     top: -1999px;
     left:790px}
 
-    img#cd{
-        position: relative;
-        top: -603px;
-    left: 715px;
+ 
+
+    img#ef{ position: relative;
+    top: -2461px;
+left: 675px;
 }
-img#de {position: relative;
-    top: -1683px;
-    left: -486px;}
     
 
     
 
 
-=======
+
+
+
+/* chat box */
+
+.chat-box {
+  width: 300px;
+  margin: 0 10px 50px 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  float: right;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  /* Added height to limit chat box height */
+  overflow: hidden;
+  /* Hide overflow */
+  box-shadow: 5px 5px 15px #333;
 }
->>>>>>> Stashed changes
+
+.chat-box h1 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  margin-top: 0;
+  padding: 10px;
+  font-size: 30px;
+
+}
+
+.chat-container {
+  flex-grow: 1;
+  /* Grow to fill remaining space */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message .user {
+  font-weight: bold;
+  color: #333;
+}
+
+.input-container {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex: 1;
+  /* Take remaining space */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-container button {
+  padding: 8px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.received {
+  text-align: right;
+}
+
+.received .user {
+  color: #888;
+}
