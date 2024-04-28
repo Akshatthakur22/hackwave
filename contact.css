@@ -14,5 +14,5 @@ body {
     box-shadow: 2px 3px 15px;
 position: relative;
 left: 180px;}
-img.image{ position: relative;}
-    :left      
+img.image{ display: flex;
+justify-content: center; }
