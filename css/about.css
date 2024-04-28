@@ -9,7 +9,18 @@ body {
   background-color: #efefef;
   padding-bottom: 50px;
 }
+hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set the height of the horizontal rule */
+  background-color: #ccc; /* Set the background color */
+  margin: 20px auto; /* Center the <hr> horizontally and add margin for spacing */
+  width: 80%; /* Set the width to 50% of its container */
+}
 
+/* Hover state */
+hr:hover {
+  background-color: #999; /* Change background color on hover */
+}
 .navbar {
   position: fixed;
   width: 100%;
@@ -71,7 +82,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  margin-top: 150px;
+  margin-top: 180px;
   font-size: 45px;
   /* text-decoration: underline; */
   position: relative;
@@ -88,7 +99,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* about.css */
+
 .aboutInfo {
   display: flex;
   flex-direction: column;
@@ -103,9 +114,8 @@ footer {
 p.ab {
   font-size: 18px;
   padding: 35px;
-  width: 80%;
+  width: 90%;
   text-align: center;
-  /* box-shadow: 2px 3px 15px; */
 
 }
 /* 
@@ -155,8 +165,8 @@ p#op {
 p#st {
   border: 15px solid white;
   outline: solid rgb(111, 108, 108);
-  box-shadow: 1px 2px 15px; */
-}
+  box-shadow: 1px 2px 15px; 
+}*/
 
 
 img.main {

@@ -1,22 +1,128 @@
 body {
   background-color: #FFF2D7;
   padding-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div.rem {
-  font-size: 20px;
-  font-weight: 800;
-  margin: 20px;
-  padding: 35px;
-  width: 60vw;
-  text-align: center;
-  border: 5px solid white;
-  box-shadow: 2px 3px 15px;
-  position: relative;
-  left: 180px;
-}
-
-img.image {
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
   display: flex;
   justify-content: center;
+}
+
+header {
+  overflow: hidden;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px 0px 10px;
+  width: 700px;
+  border-radius: 50px;
+}
+img.image {
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.rem {
+  font-size: 18px;
+  margin: 0 auto;
+  width: 60vw;
+  text-align: center;
+  position: relative;
+}
+
+
+div.rems {
+  font-size: 60px;
+  font-weight: 600;
+
+  margin: 25px;
+  padding: 30px;
+  left: 20%;
+  position: relative;
+}
+
+/* div.remf {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  ;
+  margin: 25px;
+  padding: 30px;
+  width: 20vw;
+  height: 20vh;
+  position: relative;
+  left: 38%;
+  box-shadow: 2px 3px 10px;
+} */
+
+.socialHandles {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set the height of the horizontal rule */
+  background-color: #ccc; /* Set the background color */
+  margin: 20px auto; /* Center the <hr> horizontally and add margin for spacing */
+  width: 80%; /* Set the width to 50% of its container */
+}
+
+/* Hover state */
+hr:hover {
+  background-color: #999; /* Change background color on hover */
+}
+
+
+ul li {
+  
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgLogo{
+  padding: 12px;
+}
+
+ul li img {
+  margin-top: 20px;
+  width: 50px;
+  height: auto;
+  border-radius: 50px;
+}
+
+img.abc {
+  height: 15vh;
+  border: 30px solid white;
+  border-radius: 30px;
+}
+
+.container{
+  margin-left: 10%;
+}
+
+
+.container h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container p{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 15px;
+  margin-top: 20px;
 }

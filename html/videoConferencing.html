@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video Conferencing</title>
-    <link rel="stylesheet" href="/css/videoConferencing.css" />
-  </head>
-  <body>
-    <nav id="akki">
-      <div class="kush">
-        <center>
-          <h1 class="head">Video Conferencing!</h1>
-        </center>
-      </div>
-    </nav>
 
-    <div id="localVideoContainer">
-      <video id="localVideo" autoplay muted></video>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Conferencing</title>
+  <link rel="stylesheet" href="/css/videoConferencing.css" />
+</head>
 
-    <div id="remoteVideoContainer">
-      <video id="remoteVideo" autoplay></video>
-    </div>
+<body>
+  <div class="hero">
+    <h1>Video Conferencing</h1>
+    <ul>
+
+
+      <li>
+        <div id="localVideoContainer">
+          <video id="localVideo" autoplay muted></video>
+        </div>
+      </li>
+
+      <li>
+        <div id="remoteVideoContainer">
+          <video id="remoteVideo" autoplay></video>
+        </div>
+      </li>
+    </ul>
 
     <div id="controls">
       <button id="startButton" onclick="start()">Start</button>
@@ -29,5 +33,7 @@
     </div>
 
     <script src="/js/videoConferencing.js"></script>
-  </body>
+  </div>
+</body>
+
 </html>

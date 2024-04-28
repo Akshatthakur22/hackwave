@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/css/contact.css">
-</head> 
+    <link rel="stylesheet" href="/css/about.css">
+</head>
 
 <body>
+    <div class="navbar">
+        <header>
+            <div class="logo">
+                <p class="logo">Omáda</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <img src="/elements/OmadaLogo.png" class="image">
-    <div class="rem">Omada, Always at your service!</div> <br>
-    <div class="rem">Reach us at-</div> <br>
+    <p class="rem">Omáda, Always at your service!</p>
+    <p class="rem">Reach us at-</p>
     
-        <ul><li>
-            <a href="https://in.linkedin.com/">
-                <img src="/elements/linkedinlogo.png" alt="Logo 2">
-            </a>
-            <a href="https://mail.google.com/mail/u/0/">
-        <img src="/elements/gmaillogo.png" alt="Logo 2">
-    </a>
-<a href="https://example.org">
-        <img src="/elements/facebooklogo.jpeg" alt="Logo 2">
-    </a>
-<a href="https://www.instagram.com/">
-        <img src="/elements/instagramlogo.jpeg" alt="Logo 2">
-    </a>
-<a href="https://example.org">
-        <img src="/elements/whatsapplogo.jpeg" alt="Logo 2">
-    </a>
-        </li></ul>
-    
-    
-    <div class="rem">OR, Reach us at-</div> <br>
-    <div class="rem">TechHub LA
-        5678 Silicon Boulevard
-        Suite 202
-        Los Angeles, CA 90012</div>
-    
+    <form class="form">
+    <div class="socialHandles">
+        <ul>
+            <li class="imgLogo"><a href="https://in.linkedin.com/"><img src="/elements/linkedinlogo.png" alt="Logo 2"></a></li></a>
+            <li class="imgLogo"><a href="https://mail.google.com/mail/u/0/"><img src="/elements/gmaillogo.png" alt="Logo 2"></li></a>
+            <li class="imgLogo"><a href="https://www.instagram.com/"><img src="/elements/instagramlogo.jpeg" alt="Logo 2"></li></a>
+            <li class="imgLogo"><a href="https://example.org"><img src="/elements/whatsapplogo.jpeg" alt="Logo 2"></li></a>
+        </ul>
+    </div>
+    </form>
+    <hr>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or feedback, please feel free to contact us using the form below or
+            visit us at our office:</p>
+        <p>123 Main Street, Indore, India</p>
+        <h3 class="feedback">Feedback</h3>
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="-5" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
 </body>
+
 </html>
