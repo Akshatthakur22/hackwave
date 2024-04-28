@@ -161,7 +161,13 @@ img#ab{
 
 img#bc {position: relative;
     top: -2159px;
-    left: 1576px;}
+    left: 976px;}
+
+    img#cd{
+        position: relative;
+        top: 1;
+        left: 1;
+    }
 
     
 
