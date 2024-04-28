@@ -155,8 +155,13 @@ position: relative;
 top: -2320px;}
 
 img#ab{
-    
+    position: relative;
+    top: -2501px;
 }
+
+img#bc {position: relative;
+    top: -2159px;
+    left: 1576px;}
 
     
 
