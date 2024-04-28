@@ -113,11 +113,11 @@ li a:hover {
 .submit-btn{
     width: 85%;
     padding: 10px 30px;
+    text-decoration: none;
     cursor: pointer;
     display: block;
     margin: auto;
     background: linear-gradient(to right, #ff105f, #ffad06);
-    /* position: relative; */
     border: 0;
     outline: none;
     border-radius: 30px;
@@ -135,10 +135,10 @@ span {
     position: absolute;
 }
 
-#login{
+#loginSwapBtn{
     left: 50px;
 }
 
-#register{
+#registerSwapBtn{
     left: 450px;
 }
