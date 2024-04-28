@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="loginSignup.css">
+        <link rel="stylesheet" href="/css/loginSignup.css">
+        <title>Omada</title>
     </head>
     <body>
         <div class="hero">
             <div class="form-box">
                 <div class="button-box">
                     <div id="btn"></div>
-                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
-                    <button type="button" class="toggle-btn" onclick="register()"">Register</button>
+                    <button type="button" class="toggle-btn" onclick="loginSwap()">Login</button>
+                    <button type="button" class="toggle-btn" onclick="registerSwap()"">Register</button>
                 </div>
-                <form id="login" class="input-group">
+                <form id="loginSwapBtn" class="input-group">
                     <input type="text" class="input-field" name="username" placeholder="User Id" required>
                     <input type="password" class="input-field" placeholder="Password" required>
                     <input type="checkbox" name="" class="checkbox" required><span>Remember Password?</span>
-                    <button type="submit" class="submit-btn"><a href="ok.html">login</a></button>
+                    <button type="submit" class="submit-btn" onclick="login_signup_check()">login</button>
                 </form>
-                <form id="register" class="input-group">
+                <form id="registerSwapBtn" class="input-group">
                     <input type="text" class="input-field" placeholder="User Id" required>
                     <input type="email" class="input-field" placeholder="Email Id" required>
                     <input type="password" class="input-field" placeholder="Password" required>
                     <input type="checkbox" name="" class="checkbox" required><span>I agree to terms & condition</span>
-                    <button type="submit" class="submit-btn">Register</button>
+                    <button type="submit" class="submit-btn">Register</button></a>
                 </form>
             </div>
         </div>
-        <script src="loginSignup.js"></script>
+        <script src="/js/loginSignup.js"></script>
     </body>
 </html>

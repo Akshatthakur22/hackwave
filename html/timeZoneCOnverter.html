@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Zone Converter</title>
+<link rel="stylesheet" href="timeZoneConverter.css">
+</head>
+<body>
+
+<main class="container">
+  <h1>Time Zone Converter</h1>
+  <div>
+    <label for="local-time">Your Local Time:</label>
+    <input type="text" id="local-time" readonly>
+  </div>
+  <div>
+    <label for="select-timezone">Select Timezone:</label>
+    <select id="select-timezone">
+      <option value="UTC">UTC</option>
+      <option value="America/New_York">America/New_York (EST)</option>
+      <option value="America/Los_Angeles">America/Los_Angeles (PST)</option>
+      <option value="Europe/London">Europe/London (GMT)</option>
+      <!-- Add more options as needed -->
+    </select>
+  </div>
+  <div>
+    <label for="converted-time">Converted Time:</label>
+    <input type="text" id="converted-time" readonly>
+  </div>
+</main>
+
+<script src="timeZoneConverter.js"></script>
+</body>
+</html>
