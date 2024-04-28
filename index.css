@@ -109,8 +109,55 @@ p.ab{
     padding: 35px;
     width: 60vw;
     text-align: center;
-
+    box-shadow: 2px 3px 15px;
     
 }
+p#ef{
+    position: relative;
+    left: -190px;
+    top: 40px;
+    left: -270px;
+  
+}
+ p#gh{position: relative;
+top: 20px;
+left: 290px;
+}
+
+p#ij{ border: 15px solid white;
+    outline: solid rgb(111, 108, 108);
+box-shadow: 1px 2px 15px;}
+
+p#kl{position: relative;
+
+}
+
+p#mn{ position: relative;
+top: -53px;
+z-index: 1;}
+
+p#qr {border: 15px solid white;
+    outline: solid rgb(111, 108, 108);
+box-shadow: 1px 2px 15px;}
+
+p#op{border: 15px solid white;
+    outline: solid rgb(111, 108, 108);
+box-shadow: 1px 2px 15px;}
+
+p#st {border: 15px solid white;
+    outline: solid rgb(111, 108, 108);
+box-shadow: 1px 2px 15px;}
+
+
+img.ab{ height: 15vw;
+    width: vw;
+position: relative;
+top: -2320px;}
+
+img#ab{
+    
+}
+
+    
 
 
