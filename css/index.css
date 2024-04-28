@@ -262,3 +262,7 @@ left: 675px;
 .received .user {
   color: #888;
 }
+video{position: relative;
+top: -100px;
+left: 480px;
+}
