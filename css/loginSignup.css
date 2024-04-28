@@ -117,10 +117,25 @@ li a:hover {
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #134e6f, #092b68);
     border: 0;
     outline: none;
     border-radius: 30px;
+    color: rgb(210, 237, 140);
+}
+.submit-btn:hover{
+    width: 85%;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #77b5d9, #4d699e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: rgb(30, 31, 27);
+    transition: 0.3s;
 }
 
 .checkbox{
