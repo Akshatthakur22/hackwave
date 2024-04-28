@@ -31,10 +31,10 @@
     <form class="form">
     <div class="socialHandles">
         <ul>
-            <li class="imgLogo"><a href="https://in.linkedin.com/"><img src="/elements/linkedinlogo.png" alt="Logo 2"></a></li></a>
-            <li class="imgLogo"><a href="https://mail.google.com/mail/u/0/"><img src="/elements/gmaillogo.png" alt="Logo 2"></li></a>
-            <li class="imgLogo"><a href="https://www.instagram.com/"><img src="/elements/instagramlogo.jpeg" alt="Logo 2"></li></a>
-            <li class="imgLogo"><a href="https://example.org"><img src="/elements/whatsapplogo.jpeg" alt="Logo 2"></li></a>
+            <li class="imgLogo"><a href="https://in.linkedin.com/" target="_blank"><img src="/elements/linkedinlogo.png" alt="Logo 2"></a></li></a>
+            <li class="imgLogo"><a href="https://mail.google.com/mail/u/0/" target="_blank"><img src="/elements/gmaillogo.png" alt="Logo 2"></li></a>
+            <li class="imgLogo"><a href="https://www.instagram.com/" target="_blank"><img src="/elements/instagramlogo.jpeg" alt="Logo 2"></li></a>
+            <li class="imgLogo"><a href="https://example.org" target="_blank"><img src="/elements/whatsapplogo.jpeg" alt="Logo 2"></li></a>
         </ul>
     </div>
     </form>
@@ -45,17 +45,21 @@
             visit us at our office:</p>
         <p>123 Main Street, Indore, India</p>
         <h3 class="feedback">Feedback</h3>
-        <form id="contactForm" action="#" method="post">
+        <form id="contactForm">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" >
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
+            <input type="text" id="email" name="email" >
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="-5" required></textarea>
-            <input type="submit" value="Submit">
+            <textarea id="message" name="message" rows="-5" ></textarea>
+            <input type="submit" value="Submit" onclick="click1()">
         </form>
     </div>
-
+    <script>
+        function click1(){
+            alert("Thanks for your feedback!!");
+        }
+    </script>
 </body>
 
 </html>
