@@ -24,7 +24,7 @@ function login_signup_check(){
         alert("please");
     }
     else{
-        location.href="main.html";
+        location.href="/html/main.html";
     }
     
 }
