@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  background-color: #fafafa;
+  background-color: #efefef;
   padding-bottom: 50px;
 }
 .navbar {
@@ -26,19 +26,6 @@ header {
   width: 700px;
   border-radius: 50px;
 }
-/* 
-header {
-  overflow: hidden;
-  position: sticky;
-  top: 20px;
-  background-color: #212121;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 10px 0px 10px;
-  border-radius: 50px;
-  max-width: 700px; 
-} */
 
 .logo {
   color: #fff;
@@ -79,13 +66,16 @@ nav ul li a:hover {
 .hero-section h1 {
   margin-top: 100px;
   font-size: 45px;
+  
 }
 
 .hero-section p {
+  margin: 0 auto; 
+  max-width: 800px;
   max-width: 80%;
   padding-top: 40px;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 
