@@ -32,6 +32,7 @@ function stop() {
   }
   document.getElementById('startButton').disabled = false;
   document.getElementById('stopButton').disabled = true;
+  window.location.reload();
 }
 
 function createPeerConnection() {
