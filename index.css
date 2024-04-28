@@ -156,18 +156,23 @@ top: -2320px;}
 
 img#ab{
     position: relative;
-    top: -2501px;
+    top: -2498px;
+    left: 500pxpx;
 }
 
 img#bc {position: relative;
-    top: -2159px;
-    left: 976px;}
+    top: -1999px;
+    left:790px}
 
     img#cd{
         position: relative;
-        top: 1;
-        left: 1;
-    }
+        top: -603px;
+    left: 715px;
+}
+img#de {position: relative;
+    top: -1683px;
+    left: -486px;}
+    
 
     
 
