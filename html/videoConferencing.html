@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Conferencing</title>
-  <link rel="stylesheet" href="/css/videoConferencing.css">
-</head>
-<body>
-  <div id="localVideoContainer">
-    <video id="localVideo" autoplay muted></video>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Conferencing</title>
+    <link rel="stylesheet" href="/css/videoConferencing.css" />
+  </head>
+  <body>
+    <nav id="akki">
+      <div class="kush">
+        <center>
+          <h1 class="head">Video Conferencing!</h1>
+        </center>
+      </div>
+    </nav>
 
-  <div id="remoteVideoContainer">
-    <video id="remoteVideo" autoplay></video>
-  </div>
+    <div id="localVideoContainer">
+      <video id="localVideo" autoplay muted></video>
+    </div>
 
-  <div id="controls">
-    <button id="startButton" onclick="start()">Start</button>
-    <button id="stopButton" onclick="stop()" disabled>Stop</button>
-  </div>
+    <div id="remoteVideoContainer">
+      <video id="remoteVideo" autoplay></video>
+    </div>
 
-  <script src="/js/videoConferencing.js"></script>
-</body>
+    <div id="controls">
+      <button id="startButton" onclick="start()">Start</button>
+      <button id="stopButton" onclick="stop()" disabled>Stop</button>
+    </div>
+
+    <script src="/js/videoConferencing.js"></script>
+  </body>
 </html>

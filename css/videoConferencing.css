@@ -1,39 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #localVideoContainer,
-  #remoteVideoContainer {
-    width: 50%;
-    float: left;
-    margin: 20px;
-    border: 7px  #c6c5ca;
-    outline: 2px solid black;
-    
-  }
-  
-  video {
-    width: 100%;
-    height: auto;
-    border: 1px solid #9b7575;
-  }
-  
-  #controls {
-    clear: both;
-    margin-top: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: 500;
-  }
-  
-  button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#localVideoContainer {
+  width: 600px;
+  float: right;
+  margin-right: 120px;
+  margin-block: 10px 20px 30px 40px;
+  border-radius: 10px;
+}
+#remoteVideoContainer {
+  width: 600px;
+  float: left;
+  margin-left: 180px;
+  margin-block: 10px 20px 30px 40px;
+  border-radius: 10px;
+}
+
+video {
+  width: 80%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+#controls {
+  clear: both;
+  margin-top: 20px;
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+#stopButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.head {
+  border-width: 60px;
+  overflow: hidden;
+  position: sticky;
+  top: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px 0px 10px;
+  border-radius: 50px;
+  max-width: 700px;
+  margin: 20px;
+  color: #ccc;
+  text-align: center;
+  margin: 25px;
+  padding: 18px;
+  animation-delay: 10px;
+}
+.kush {
+  height: 70px;
+  text-align: center;
+}
